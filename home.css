@@ -1,0 +1,159 @@
+body{
+	background-image: url("tree2.jpg");
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	margin-left: 10px;
+}
+
+h1{
+	font-family: Georgia, serif;
+}
+
+table{
+	border-style: solid;
+	border-radius: 5px;
+	border-color: lightgray;
+	border-width: 2px;
+	border-spacing: 5px;
+	background-color: beige;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	width: 1080px;
+}
+
+.login, .register{
+	border-style: solid;
+	border-radius: 5px;
+	border-color: lightgray;
+	background-color: beige;
+	margin-right: 30px;
+	margin-bottom: 10px;
+	height: 400px;
+	width: 300px;
+}
+
+.register{
+	margin-right: 0;
+}
+
+#welcome{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: lightgray;
+	background-color: beige;
+	margin-bottom: 30px;
+	width: 594px;
+}
+
+.flex{
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+}
+
+input:focus{
+	border-color: royalblue;
+}
+input[type=text], input[type=password], input[type=number]{
+	border-style: solid;
+	border-radius: 4px;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.submit{
+	border-style: solid;
+	border-color: #4CAF50;
+	border-radius: 4px;
+	color: white;
+	background-color: #4CAF50;
+    padding: 8px 16px;
+    margin: 4px 2px;
+	margin-left: 10px;
+}
+
+.submit:hover{
+    background-color: #45a049;
+	color: white;
+}
+
+#logusr, #logpw, #regusr, #regpw, #regfn, #regln, #usrtaken{
+	display: none;
+	padding: 2px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	font-size: 80%;
+	color: red;
+}
+
+#success{
+	display: none;
+	padding: 2px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	font-size: 80%;
+	color: green;
+}
+
+#fail, #logfail{
+	display: none;
+	padding: 2px;
+	margin-bottom: 5px;
+	margin-left: 10px;
+	font-size: 80%;
+	color: red;
+}
+
+.dashtable{
+	border-style: solid;
+	border-radius: 5px;
+	border-color: lightgray;
+	background-color: beige;
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.dashinput{
+	margin-top: 5px;
+	width: 1056px;
+}
+
+#dollar{
+	margin-left: 10px;
+	background-color: lightgray;
+	border-color: lightgray;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px 0px 0px 5px;
+	padding: 9px 8px 9px 8px;
+}
+
+#price{
+	margin-left: 0;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.del{
+	border-style: solid;
+	border-color: lightgray;
+	border-radius: 4px;
+	color: white;
+	background-color: red;
+    padding: 8px 16px;
+	margin-left: 0px;
+}
+
+.del:hover{background-color: #cc0000}
+
+.titem{width: 800px;}
+.tprice{
+	width: 100px;
+	text-align: center;
+}
