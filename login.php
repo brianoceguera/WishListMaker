@@ -1,6 +1,7 @@
 #!/usr/local/bin/php
 <?php
 	require_once 'password.php';
+	$server_sessions_directory = "";
 	$timezone = 'America/Los_Angeles';
 	//SET default timezone for now.
 	date_default_timezone_set($timezone);
@@ -55,7 +56,7 @@
 			$result = $stmt->execute();
 			
 			//start up session variables. get last login from DB
-			session_save_path("/net/laguna/h1/b/brianoceguera/public_html/final_project/sessions");
+			session_save_path($server_sessions_directory);
 			session_start();
 			$_SESSION["username"] = $usr;
 			$_SESSION["loggedin"] = true;
