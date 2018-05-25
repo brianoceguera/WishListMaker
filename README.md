@@ -1,5 +1,6 @@
 # WishListMaker
-A website to login and save links for future products they may wish to purchase. 
+A website to login and save links for future products they may wish to purchase. The home page to the site is the file christmaslist.php
+
 
 # Features
 
